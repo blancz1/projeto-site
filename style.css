@@ -358,6 +358,7 @@ h3 {
     position: relative;
     width: 100%;
     
+    
    
     
     
@@ -366,6 +367,9 @@ h3 {
 .col-5 {
     display: inline-block;
     padding-right: 140px;
+    border: 5px solid rgba(0, 0, 0, 0.26);
+    padding: 30px;
+    
     
     
    
@@ -376,6 +380,7 @@ h3 {
     color: white;
     white-space: normal;
     text-align: left;
+    
     
     
     
