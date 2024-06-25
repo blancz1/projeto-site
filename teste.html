@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botão Responsivo</title>
+    <style>
+        .botao {
+            padding: 10px 20px; /* Padding interno do botão */
+            font-size: 16px; /* Tamanho da fonte */
+            background-color: #4CAF50; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            cursor: pointer; /* Altera o cursor para indicar que é clicável */
+            transition: all 0.3s ease; /* Efeito de transição suave */
+        }
+
+        /* Media query para telas menores */
+        @media (max-width: 768px) {
+            .botao {
+                padding: 8px 16px; /* Reduz o padding interno */
+                font-size: 14px; /* Reduz o tamanho da fonte */
+            }
+        }
+
+        /* Media query para telas muito pequenas */
+        @media (max-width: 480px) {
+            .botao {
+                padding: 6px 12px; /* Reduz ainda mais o padding interno */
+                font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="botao">Clique Aqui</button>
+</body>
+</html>
