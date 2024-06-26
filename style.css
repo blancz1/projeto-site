@@ -11,6 +11,8 @@ body {
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-justify: auto;
+    overflow-x: hidden;
+    
 }
 
 ul {
